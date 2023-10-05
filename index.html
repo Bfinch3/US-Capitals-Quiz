@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Capitals Quiz</title>
+</head>
+
+<header>
+    <p class='timer'></p>
+    <div class="welcome">
+        <h1>US Capital Quiz Game!</h1>
+        <div class="input-group">
+            <span class="input-group-text">Please Enter your initials: </span>
+            <input type="text" name="initials" class="form-control" placeholder="Enter Initals">
+            <label class="score"></label>
+            <button type='submit' class="btn-enter" id="submit">Enter</button>
+        </div>
+    </div>
+</header>
+
+<body>
+
+    <section class="quiz">
+        <p class="question">Do you know the US Capitals?</p>
+        <p class="start">Press Start to find out! </p>
+        <P>Time is deducted for every wrong question!</p>
+        <button class="startQuiz">Start</button>
+    </section>
+    <section class="highScore">
+        <table></table>
+    </section>
+    <section class="restartBtn">
+        <button id="reset">Reset High Score</button>
+        <button id="restart">Restart</button>
+    </section>
+    <script src="./assets/script.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
